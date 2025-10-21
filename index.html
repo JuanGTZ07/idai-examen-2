@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Formularios </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div>
+        <h1> Recibo telefonico</h1>
+        <form action="" id="calculoMinutos">
+            <div id="Min">
+                <label for="MinLlam">Minutos de llamadas a celular: (1.00 c/u)</label>
+                <input type="number">
+            </div>
+            <div id="TDP">
+                <h2> Tipo de Plan</h2>
+                <input type="radio">
+                <label for="ST"> Solo telefono (200.00)</label>
+                <label for="TI"> Telefono + Internet (450.00)</label>
+                <label for="TITV"> Telefono + Internet + TV (850.00)</label>
+            </div>
+            <div id="servi">
+                <h2> Otros servicios</h2>
+                <input type="checkbox">
+                <label for="AV"> Antivirus (30.00)</label>
+                <input type="checkbox">
+                <label for="SN"> Servicios de nube (50.00)</label>
+                <input type="checkbox">
+                <label for="SW"> Servicios web (40.00)</label>
+            </div>
+            <div id="Paquetes">
+                <h2>Paquetes</h2>
+                <input type="select">
+            </div>
+        </form>
+    </div>
+
 </body>
 </html>
