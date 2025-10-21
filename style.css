@@ -12,15 +12,18 @@ body {
 }
 
 #u1 {
-    color: hsl(180, 100%, 82%)
+    color: hsl(180, 100%, 82%);
+    text-shadow: 5px 10px black;
 }
 
 #u2 {
-    color: hsl(297, 100%, 50%)
+    color: hsl(297, 100%, 50%);
+    text-shadow: 5px 10px rgb(208, 58, 58);
 }
 
 #u3 {
-    color: hsl(94, 100%, 82%)
+    color: hsl(94, 100%, 82%);
+    text-shadow: 5px 10px rgb(126, 9, 159);
 }
 
 #Min {
@@ -61,4 +64,13 @@ body {
     margin: 10px;
     background-color: #9db051;
     display: table-cell;
+}
+
+input, select, button {
+    border-radius: 15px;
+    padding: 4px;
+}
+
+input:hover, select:hover, button:hover {
+    background-color: bisque;
 }
