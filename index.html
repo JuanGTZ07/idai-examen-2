@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Formularios </title>
     <link rel="stylesheet" href="style.css">
-    <script>
-        var formulario;
-        formulario = document.getElementById("calculoMinutos")
-
-        function calcular() {
-            alert("Hola Luna, estoy en JavaScript")
-            alert(formulario.minLlam.value)
-        }
-    </script>
+    
 </head>
 <body>
     <div id="central">
@@ -60,5 +52,15 @@
         </form>
     </div>
 
+    <script>
+        var formulario;
+        formulario = document.getElementById("calculoMinutos");
+
+        function calcular() {
+        var total = 0;
+        total = formulario.MinLlam.value * 10;
+        alert(total);
+        }
+    </script>
 </body>
 </html>
